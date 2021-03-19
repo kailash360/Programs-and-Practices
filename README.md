@@ -1,5 +1,5 @@
 # practice
-This is a repository for some practice codes. 
-You may find something useful.
-I wouldlove to hear of any possible improvement in the codes.
+This is a repository for some practice codes. \n
+You may find something useful.\n
+I would love to hear of any possible improvement in the codes.
 
