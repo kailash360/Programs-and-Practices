@@ -1,0 +1,35 @@
+a=-1
+b=1
+c=int(input('Give the final limit: '))
+print('The Fibonacci series is,thus ')
+for i in range(1,c):
+	b=b+a
+	print(b,end=" ")
+	a=b-a
+#OR
+print('\n')
+def book():
+	first=0
+	second=1
+	print(first,end=" ")
+	print(second,end=" ")
+	for i in range(1,c):
+		third=first+second
+		print(third,end=' ')
+		first,second=second,third
+book()
+print('\nThere are two "print statements" from the beginning in the second code.So two more results are produced.')
+
+#OR
+print('\n')
+print('WITH RECURSIVE FUNCTION i.e calling the function in the function body.')
+def fib(n):
+	if n==0:
+		return 0
+	if n==1:
+		return 1
+	return fib(n-1)+fib(n-2)
+for i in range(c):
+		print(fib(i),end=' ')
+
+
